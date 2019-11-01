@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 def NFact135():
     def fact(x):
         _fact = 1
@@ -56,18 +55,22 @@ def NArr(x, arr):
 
 
 def main():
+    #NFactArr(10, [1,3,5])
+    #return
     print(NFact135())
-
-    for n in range(10+1):
+    print(NArr(10, [1,3,5]))
+    print(N135(10))
+    return
+    for n in range(10):
         print(n, NFact(n))
 
-    for n in range(10+1):
+    for n in range(10):
         print(n, N(n))
 
-    for n in range(10+1):
+    for n in range(10):
         print(n, N135(n))
 
-    for n in range(10+1):
+    for n in range(10):
         print(n, NArr(n, [1,3,5]))
 
 
